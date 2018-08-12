@@ -12,6 +12,24 @@ body {
     background-color: rgb(26, 26, 26);
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.menu a {
+    border: 2px solid rgb(0, 105, 167);
+    color: rgb(0, 105, 167);
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.menu a:hover {
+    background-color: rgb(241, 241, 241);
+}
+
 .photos {
     max-width: 900px;
     margin: 20px auto;
